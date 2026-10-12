@@ -7,7 +7,7 @@
     "status": {"enum": ["not_started", "draft", "reviewed"]},
     "mobile_first": {"const": true},
     "representations": {"type": "array", "items": {"type": "object", "required": ["beat_id", "form", "rationale", "claim_ids"], "properties": {"form": {"enum": ["prose", "diagram", "chart", "interaction", "omit"]}}}},
-    "semantic_outline": {"type": "array"}
+    "semantic_outline": {"type": "array", "items": {"type": "string"}}
   },
   "additionalProperties": true
 }
