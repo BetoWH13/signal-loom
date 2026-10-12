@@ -13,7 +13,7 @@ Hand off records a customer can save and resume. Give a file-to-content manifest
 5. Produce one complete semantic HTML document in a fenced code block. Keep all essential meaning available without JavaScript and avoid external dependencies.
 6. If requested, produce a 6–14 panel carousel as a panel-by-panel package with copy, visual direction, claim ids, source note, alt text, and transition purpose.
 7. Produce a diagnostic record: top three corrections, secondary findings, unresolved claims, currentness limits, human approvals, and unproved evidence layers.
-8. Give exact filenames and later commands for initializing, inspecting, validating, and packaging in a normal Signal Loom Infographics installation.
+8. Load the helper usage in `docs/CUSTOMER-GUIDE.md` and the re-entry contract in `docs/STATE-AND-REVIEW.md`. Give exact filenames and complete later commands for initializing, inspecting, validating, and packaging in a normal Signal Loom Infographics installation, carrying every required argument and its destination role. If that command contract is unavailable, name the missing reference rather than inventing an invocation.
 
 For a later correction, retain the original file contents and old assessment, label the revised work draft, and show which evidence and visible values change together. Without tools, leave current review-basis capture and byte comparisons unexecuted; do not invent digests or claim format 0.2.0 reviewed/approved consistency. The later command is `python scripts/migrate_loomfile.py ORIGINAL NEW_COPY`; then follow `docs/STATE-AND-REVIEW.md`.
 
