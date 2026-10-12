@@ -18,7 +18,9 @@ Public GitHub Repo: [signal-loom](https://github.com/Stunspot/signal-loom)
 
 # Changelog
 
-v0.2.1 - Adds current material/output review binding, coherent record checks, copy-first legacy migration and correction, and a complete worked count-versus-rate example. Draft backups preserve draft status; human approval and publication remain separate.
+v0.2.1 - Distinct installable update carrying the accepted complete faculty/toolkit, four-file handoff/schema repair and maintained teaching records. Current package, guides and sidecars agree on0.2.1; production helpers and Loomfile schema0.2.0 remain unchanged. Prior observations retain their original scope.
+
+v0.2.0 - Adds current material/output review binding, coherent record checks, copy-first legacy migration and correction, and a complete worked count-versus-rate example. Draft backups preserve draft status; human approval and publication remain separate.
 
 v0.1.1 -2026-10-03 presentation edit. Renamed the display title to Signal Loom Infographics throughout the skill, customer guidance, site metadata and artwork. Existing infographic behavior, invocation, storage and schema identities retain0.1.1.
 
