@@ -1,0 +1,43 @@
+# Degraded capability routes
+
+Use this reference when a normal build step cannot run. A degraded route preserves truth and re-entry; it does not manufacture proof.
+
+## Filesystem unavailable
+
+Fill the current Loomfile template records through `fallbacks/universal-copy-paste-workflow.md` and provide their complete copy-ready contents in the chat. Preserve the record shapes, linked story and semantic outline alongside explicit paths. Mark initialization, hashing, parsing, tests, packaging, rendering, and archive inspection `unexecuted`. Re-entry requires a writable workspace and actual checks of the saved state.
+
+## Python unavailable
+
+Create artifacts normally if filesystem tools exist. Perform a visible manual review against the same contracts, but label deterministic checks `unexecuted`. Provide exact commands for later execution.
+
+## Current evidence unavailable
+
+Retain current-sensitive claims as `missing`, `stale`, or `disputed`. Exclude them from unqualified visible copy. Do not browse, fetch, or refresh unless the user authorizes that separate research action.
+
+## Assets unavailable
+
+Use a typography-first layout with CSS shapes or inline SVG where supported. Do not use decorative stock imagery as a substitute for missing evidence. Record the asset gap.
+
+## Quantitative data unavailable
+
+Use prose or a relationship/process diagram. Never synthesize plausible-looking measurements. If illustrative numbers are requested for demonstration, label them in every layer.
+
+## Build or review failure
+
+Preserve completed files and state. Record:
+
+- the failed step and exact error;
+- what remains trustworthy;
+- what evidence was not produced;
+- the smallest safe retry;
+- whether human authority is required.
+
+After repeated unchanged failure, change the route or stop. Do not rerun the same failing action as ceremony.
+
+## Review or migration unavailable
+
+Preserve the original Loomfile and its review. Work in a separate explicitly labeled draft when the host can copy files; otherwise provide the complete proposed correction and re-entry instructions without claiming it was applied. Never invent basis digests, migration completion or approval. A partial copy with `.migration-incomplete.json` remains incomplete until inspected; choose a new destination rather than clearing that marker to silence validation.
+
+## Minimum responsible completion
+
+When cumulative degradation prevents a working artifact, deliver a reviewable source manifest, claim ledger, story spine, visual plan, and re-entry note. Call it a planning package, not a completed infographic.

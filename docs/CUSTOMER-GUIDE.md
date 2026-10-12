@@ -1,6 +1,6 @@
 # Signal Loom Infographics customer guide
 
-Signal Loom Infographics makes infographics from supplied research, reports, notes, and data. This guide takes the package from installation through removal. It is operational documentation for the `0.2.0` package, not a claim that every host/environment combination has been independently installed and exercised.
+Signal Loom Infographics makes infographics from supplied research, reports, notes, and data. This guide takes the package from installation through removal. It is operational documentation for the `0.2.1` package, not a claim that every host/environment combination has been independently installed and exercised.
 
 Start with [the completed count-and-correction example](../examples/counts-and-rates/README.md) to see the result and follow its evidence. For a current assessment or correction, use [State, review, and correction](STATE-AND-REVIEW.md).
 

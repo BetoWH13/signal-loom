@@ -27,7 +27,7 @@ def selected(source):
  for name in DIRECTORIES:
   folder=source/name
   if not folder.is_dir():raise ValueError('missing release directory: '+name)
-  paths.extend(p for p in sorted(folder.rglob('*')) if p.is_file() and not SKIP_PARTS.intersection(p.relative_to(source).parts) and p.suffix not in {'.pyc','.pyo'} and not (name=='delivery-sidecars' and 'v0.1.1' in p.name))
+  paths.extend(p for p in sorted(folder.rglob('*')) if p.is_file() and not SKIP_PARTS.intersection(p.relative_to(source).parts) and p.suffix not in {'.pyc','.pyo'} and not (name=='delivery-sidecars' and any(v in p.name for v in ('v0.1.1','v0.2.0'))))
  names={p.relative_to(source).as_posix() for p in paths}
  for name in REQUIRED:
   if name not in names:raise ValueError('missing required release member: '+name)
@@ -36,7 +36,7 @@ def selected(source):
 def entries(source):
  source=assert_unlinked(source)
  info=json.loads((source/'manifest.json').read_text(encoding='utf-8'))
- if info.get('name')!='signal-loom' or info.get('version')!='0.2.0':raise ValueError('unsupported product identity/version')
+ if info.get('name')!='signal-loom' or info.get('version')!='0.2.1':raise ValueError('unsupported product identity/version')
  prefix='signal-loom-v'+info['version']
  payload=check_tree(source,selected(source),prefix)
  directories=[]
@@ -53,7 +53,7 @@ def build(source,output):
  source=assert_unlinked(source);output=assert_chain(output.expanduser(),allow_missing=True)
  if output.is_relative_to(source):raise ValueError('release output must be outside source')
  payload=entries(source);atomic_zip(payload,output)
- return {'output':str(output),'file_count':sum(not name.endswith('/') for name,_ in payload),'product':'signal-loom','version':'0.2.0'}
+ return {'output':str(output),'file_count':sum(not name.endswith('/') for name,_ in payload),'product':'signal-loom','version':'0.2.1'}
 
 def main(argv=None):
  parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('source',type=Path);parser.add_argument('output',type=Path);args=parser.parse_args(argv)

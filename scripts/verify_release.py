@@ -11,7 +11,7 @@ except ImportError:
 def verify(root):
  root=assert_unlinked(root)
  manifest=json.loads((root/'product-release.json').read_text(encoding='utf-8'))
- if manifest.get('format')!='signal-loom-product-release/v1' or manifest.get('product')!='signal-loom' or manifest.get('version')!='0.2.0':raise ValueError('unsupported release manifest')
+ if manifest.get('format')!='signal-loom-product-release/v1' or manifest.get('product')!='signal-loom' or manifest.get('version')!='0.2.1':raise ValueError('unsupported release manifest')
  files=manifest.get('files')
  if not isinstance(files,list):raise ValueError('release manifest needs file list')
  if not all(isinstance(item,dict) and isinstance(item.get('path'),str) for item in files):raise ValueError('invalid release file record')

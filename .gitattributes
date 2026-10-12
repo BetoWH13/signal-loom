@@ -20,3 +20,8 @@
 # Binary containers and media.
 *.webp binary
 *.mp4 binary
+
+# Preserve current sealed customer bytes.
+/release-v0.2.1/** -text
+/release-assets/v0.2.1/** -text
+/delivery-v0.2.1/** -text

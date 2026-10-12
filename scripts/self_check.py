@@ -56,7 +56,7 @@ def run() -> list[str]:
     except json.JSONDecodeError as exc:
         errors.append(f"manifest.json invalid: {exc}")
     else:
-        if manifest.get("name") != "signal-loom" or manifest.get("version") != "0.2.0":
+        if manifest.get("name") != "signal-loom" or manifest.get("version") != "0.2.1":
             errors.append("manifest identity or version mismatch")
         if manifest.get("product_name") != "Signal Loom Infographics":
             errors.append("manifest product_name must be Signal Loom Infographics")

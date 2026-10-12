@@ -2,8 +2,8 @@
   "format": "cd-customer-documentation/v1",
   "product": "Signal Loom Infographics",
   "slug": "signal-loom",
-  "version": "0.2.0",
-  "scope": "Hesperos materially reworks the complete first-use, reviewed correction, migration, evidence and delivery journeys and authors the worked lesson/reference. Machine-facing SKILL and doctrine use Promptcraft separately.",
+  "version": "0.2.1",
+  "scope": "Retains original0.2.0 Hesperos authorship and accepted four-file repair. Current0.2.1 identity/guide/sidecar copy edits are maintenance, not new broad authorship.",
   "customer_docs": [
     "README.md",
     "docs/CUSTOMER-GUIDE.md",
@@ -21,8 +21,8 @@
     "CHANGELOG.md",
     "fallbacks/universal-copy-paste-workflow.md",
     "fallbacks/degraded-capability.md",
-    "delivery-sidecars/Signal Loom Infographics T-Free v0.2.0.md",
-    "delivery-sidecars/Signal Loom Infographics T-Free v0.2.0 Extra.md"
+    "delivery-sidecars/Signal Loom Infographics T-Free v0.2.1.md",
+    "delivery-sidecars/Signal Loom Infographics T-Free v0.2.1 Extra.md"
   ],
   "customer_document_inventory": [
     "README.md",
@@ -41,12 +41,13 @@
     "CHANGELOG.md",
     "fallbacks/universal-copy-paste-workflow.md",
     "fallbacks/degraded-capability.md",
-    "delivery-sidecars/Signal Loom Infographics T-Free v0.2.0.md",
-    "delivery-sidecars/Signal Loom Infographics T-Free v0.2.0 Extra.md",
+    "delivery-sidecars/Signal Loom Infographics T-Free v0.2.1.md",
+    "delivery-sidecars/Signal Loom Infographics T-Free v0.2.1 Extra.md",
     "docs/404.html"
   ],
   "retained_legacy_docs": [
     "docs/404.html"
   ],
-  "retained_boundary": "Unchanged 404 recovery source retains historical source authorship; no new authorship is claimed. License remains its unchanged legal notice, outside instructional documentation."
+  "retained_boundary": "Unchanged 404 recovery source retains historical source authorship; no new authorship is claimed. License remains its unchanged legal notice, outside instructional documentation.",
+  "accepted_authorship_version": "0.2.0"
 }

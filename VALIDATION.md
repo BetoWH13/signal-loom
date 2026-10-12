@@ -1,6 +1,6 @@
 # Validation and evidence boundaries
 
-Signal Loom Infographics 0.2.0 supports a source-to-infographic workflow and recoverable corrections. The commands in Run local checks establish bounded local behavior. An executed result applies only to the candidate and environment recorded with it; this file is not a claim that every command ran for every installation.
+Signal Loom Infographics 0.2.1 supports a source-to-infographic workflow and recoverable corrections. The commands in Run local checks establish bounded local behavior. An executed result applies only to the candidate and environment recorded with it; this file is not a claim that every command ran for every installation.
 
 ## Run local checks
 
@@ -33,3 +33,7 @@ Factual accuracy, present-day currentness, domain judgment, representative-user 
 If a check fails, retain its actual error and the affected work. Classify whether the deliverable, test, tool or environment failed before repairing it. Follow [State, review, and correction](docs/STATE-AND-REVIEW.md) for a stale review or legacy format, and [the customer guide](docs/CUSTOMER-GUIDE.md#troubleshooting-and-recovery) for installation or packaging recovery.
 
 Historical verification remains repository history; it is not current evidence for the new review/migration contract. Current readiness and actual final release verification are recorded separately after the candidate is frozen and independently challenged. A package or source check alone is never a release-readiness claim.
+
+## Distinct installable release 0.2.1
+
+Version 0.2.1 carries the accepted four-file handoff/schema repair and complete faculty toolkit with current package and guide identities. Loomfile record/schema version remains 0.2.0. Original useful private job, copy-first correction/native return and prior native controls remain evidence at their original cutoffs; model/host/population bounds and all actual failures remain unchanged. Current package custody and affected-guide judgment do not create a fresh model or native-use qualification.

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 - 2026-10-12
+
+Distinct installable update of the accepted complete faculty/toolkit and four-file repair. Current manifest, package guards, archive and guide/sidecar identities agree. All infographic production helpers and Loomfile0.2.0 schema contracts remain unchanged.
+
 ## 2026-10-03 — Display-name edit (0.1.1)
 
 - Rename the current product display title to **Signal Loom Infographics** so its function is visible in catalogs, host metadata, documentation, and the product guide. Keep `signal-loom`, its invocation forms, compatibility contract, and version 0.1.1.
