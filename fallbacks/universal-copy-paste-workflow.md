@@ -2,6 +2,10 @@
 
 Use this route in a chat system without scripts or file tools.
 
+Fill the studio's existing record shapes with this story. Load the complete `assets/loomfile.template` records and relevant `schemas/` when the host can supply them; preserve their vocabulary, fields and required types while filling the audience, evidence and design. Keep unearned state at its truthful initial value. Build the visual plan's `semantic_outline` from the actual reading sections and textual alternatives, alongside its beat-linked representations. Carry one coherent source → claim → story → visual structure through the handoff.
+
+Hand off records a customer can save and resume. Give a file-to-content manifest with each complete source/state/review record and the complete HTML; use the existing template shape rather than reconstructing a smaller record from memory. State the serialization for each path, including one JSON object per line for journals, and preserve the initializer's actual identity/timestamps when applying project fields. Re-entry supplies execution and evidence to the authored records. When their contract resources are unavailable, label the result a planning package and name the resources needed for a complete Loomfile handoff.
+
 1. Create a source table with stable ids, titles, supplied dates, authority, and locators.
 2. Create a claim table with stable ids, exact wording, source id, locator, as-of date, currentness, and status.
 3. Build a 5–9 beat story spine with a named tension, turn, payoff, analytical arc, and emotional arc.

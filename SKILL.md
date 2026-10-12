@@ -59,7 +59,7 @@ Create `state/visual-plan.json`. Record rejected representations when the choice
 
 Build a real artifact in `output/web/`, normally `index.html`, with semantic HTML, responsive layout, meaningful headings, accessible text equivalents, local or embedded assets, and no required external runtime. Keep important meaning available without JavaScript.
 
-If code execution is unavailable, provide complete copy-ready file contents and mark deterministic checks unexecuted. Do not pretend rendered or browser behavior was verified.
+If code execution is unavailable, fill the complete record shapes from `assets/loomfile.template` through `fallbacks/universal-copy-paste-workflow.md`. Carry the evidence, story, and visual structure into copy-ready files with their contract fields intact; mark deterministic checks unexecuted. Do not pretend rendered or browser behavior was verified.
 
 ### 5. FINISH
 

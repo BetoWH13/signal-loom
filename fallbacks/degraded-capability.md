@@ -4,7 +4,7 @@ Use this reference when a normal build step cannot run. A degraded route preserv
 
 ## Filesystem unavailable
 
-Provide a complete Loomfile manifest and copy-ready contents in the chat. Keep paths explicit. Mark initialization, hashing, parsing, tests, packaging, rendering, and archive inspection `unexecuted`. The re-entry condition is a writable workspace.
+Fill the current Loomfile template records through `fallbacks/universal-copy-paste-workflow.md` and provide their complete copy-ready contents in the chat. Preserve the record shapes, linked story and semantic outline alongside explicit paths. Mark initialization, hashing, parsing, tests, packaging, rendering, and archive inspection `unexecuted`. Re-entry requires a writable workspace and actual checks of the saved state.
 
 ## Python unavailable
 
