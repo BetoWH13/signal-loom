@@ -1,11 +1,11 @@
 {
   "artifact": "output/web/index.html",
   "status": "PASS_WITH_CONDITIONS",
-  "reviewer": "Nova, in-process teaching-example author",
+  "reviewer": "Nova operator re-assessing current teaching source and Git-directory restoration",
   "intended_use": "local fictional count-versus-rate teaching",
   "basis": {
     "format": "signal-loom-review-basis/v1",
-    "material_sha256": "f8929b9578b2ea1e5dd1a68bbcd740e67806288eee53317b5d9b6e5a36812e10",
+    "material_sha256": "eab054252800a9c67e5b273c6d7fa0d31ee6418f650e22a09d998b0bc5f480c6",
     "source_files": {
       "S-original": {
         "path": "sources/originals/responses.csv",
@@ -25,13 +25,14 @@
       }
     },
     "output_files": {
+      "output/carousel/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output/platforms/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "output/web/index.html": "1dbddcca37495288d4f8c2fb395a9015313a46bb7bbc7e47ca560fe7469d2d6e"
     },
-    "sha256": "d37acc834d98204ba50c703e5d84c0fc5c210c2de397b5a8fbe5b0ec42ca3b31"
+    "sha256": "16e32bed34ad9320fcc8ae60d10638190dc798ef5a46889b3fa2a5970505120e"
   },
   "evidence": [
-    "review/review-notes.md",
-    "review/static-check.txt"
+    "review/git-clone-assessment.md"
   ],
   "conditions": [
     {
@@ -50,5 +51,6 @@
     "security",
     "human approval",
     "publication"
-  ]
+  ],
+  "reviewed_at": "2026-10-12T01:52:28.554925+00:00"
 }

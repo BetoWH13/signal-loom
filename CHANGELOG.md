@@ -8,6 +8,8 @@ All notable current-package changes are documented here. Historical release arti
 
 ## 0.2.0 — Current review and recoverable corrections
 
+Same-version delivery repair: preserve the teaching examples’ required empty directories in Git clones with tracked placeholders; keep prior reviews in copy-first history and re-assess the unchanged fictional infographic against its current transport resources. Add a legitimate file-only receiving control and the matching missing-directory contrast.
+
 - Bind assessments to the whole material state, source bytes and actual output resources; require coherent source/claim/story/representation links.
 - Separate reviewed assessments, passing reviews, recorded approval and backup packaging.
 - Add exclusive review-basis capture and copy-first migration from legacy0.1.0 or current0.2.0 Loomfiles, preserving originals and historical review.
