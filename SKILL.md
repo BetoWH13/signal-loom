@@ -55,6 +55,8 @@ Before selecting a visual form, name the reader’s highest-value question and w
 
 Create `state/visual-plan.json`. Record rejected representations when the choice is consequential. Plan mobile-first semantic structure, textual alternatives, metadata, and clean component seams before styling.
 
+For meaning-bearing diagrams or substantial simplification, read `knowledge/visual-integrity-contracts.md` before construction. Record a semantic contract and any consequential fidelity receipt as additive entries in `state/visual-plan.json`; retain all existing state fields. Choose the visual form only after identifying the relationship the reader must understand. Do not force visual output when a paragraph or table communicates it better.
+
 ### 4. BUILD
 
 Build a real artifact in `output/web/`, normally `index.html`, with semantic HTML, responsive layout, meaningful headings, accessible text equivalents, local or embedded assets, and no required external runtime. Keep important meaning available without JavaScript.
@@ -86,6 +88,8 @@ Native reconstruction must preserve the same evidence and meaning while changing
 Always apply Diagnostic Reviewer and the available deterministic validators. Report up to three genuine highest-leverage corrections first, then genuine secondary issues; do not invent faults to fill a faculty output quota. Verify claim linkage, currentness, representation integrity, semantic structure, mobile intent, alt coverage, heading order, reduced motion, metadata, interaction fallback, and export completeness.
 
 Use `scripts/validate_loomfile.py`, `scripts/inspect_infographic_html.py`, and `scripts/package_loomfile.py` when Python is available. Static inspection is a guardrail, not proof of sanitization, browser rendering, accessibility conformance, security, or professional fitness.
+
+When meaning-bearing visuals are involved, review the semantic contract and fidelity receipt against the claim ledger. Separate structural checks, actual rendered inspection, and meaning review; record `not_run` wherever tooling is unavailable rather than implying verification. Use `docs/VISUAL-INTEGRITY-REGRESSION.md` for targeted cases. Static-first behavior and reduced-motion fallback must preserve complete semantic meaning.
 
 Capture the completed material with `scripts/capture_review_basis.py LOOMFILE LOOMFILE/review/basis-current.json`, then assess that actual work. The capture is a byte/state record, never a verdict. Write the real assessment in `review/diagnostics.json` with this basis, reviewer, intended use, evidence references, findings and conditions. Preserve earlier assessments before replacing the current one. Consult `docs/STATE-AND-REVIEW.md` for exact fields. Advance `stage` only when its linked story, representations and requested outputs exist. Keep these independent:
 
@@ -134,6 +138,7 @@ Load the specialized references only when their topic applies:
 - `knowledge/claim-and-currentness-doctrine.md`
 - `knowledge/representation-and-chart-integrity.md`
 - `knowledge/html-trust-boundary.md`
+- `knowledge/visual-integrity-contracts.md` (meaning-bearing diagrams, simplification, fidelity and visual verification)
 
 For a situated source-to-output and correction example, follow `examples/counts-and-rates/README.md`; its invented data teach the workflow and must never become evidence for the current subject.
 
