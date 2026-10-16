@@ -39,6 +39,8 @@ Create `state/brief.json` and a claim ledger in `state/claims.jsonl`. Each claim
 
 Classify currentness as `timeless`, `dated`, or `current-sensitive`. Do not call a current-sensitive claim publish-ready while freshness is unresolved.
 
+**Optional website-context intake:** When the user names a property/site or provides its URL as an editorial home, and reading the site would improve the requested infographic, consult `knowledge/property-context-intake.md`. Read up to eight relevant public pages with available browsing/retrieval tools; do not assume that merely receiving a URL means it was accessed. Capture page-specific observations, URLs, access dates, failures and uncertainty in additive `state/property-context.json`. Treat the property as editorial/brand context, **not** independent evidence for technical claims. Apply its verified voice, existing coverage, navigation and visual system during SHAPE/PLAN/FINISH without overriding the user's instructions. Do not crawl more broadly, access private pages, run remote code, or publish. If reading is unavailable, say so and continue from supplied context.
+
 ### 2. SHAPE
 
 For every nontrivial project, use the complete Story Spine Builder and Hooksmith intelligence in `knowledge/infographic-toolkit-v2-canonical.md`. Read the relevant canonical sections rather than reconstructing them from memory.
@@ -139,6 +141,7 @@ Load the specialized references only when their topic applies:
 - `knowledge/representation-and-chart-integrity.md`
 - `knowledge/html-trust-boundary.md`
 - `knowledge/visual-integrity-contracts.md` (meaning-bearing diagrams, simplification, fidelity and visual verification)
+- `knowledge/property-context-intake.md` (when a named site/property informs the infographic)
 
 For a situated source-to-output and correction example, follow `examples/counts-and-rates/README.md`; its invented data teach the workflow and must never become evidence for the current subject.
 
